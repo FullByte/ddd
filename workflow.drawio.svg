@@ -1,0 +1,226 @@
+<mxfile host="Electron" modified="2024-11-18T10:40:53.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.11 Chrome/114.0.5735.289 Electron/25.9.8 Safari/537.36" etag="kjnItWKY_xGyrAzaimzt" version="22.1.11" type="device">
+  <diagram name="Seite-1" id="XMnP-D0BjgQC9fbp-I-6">
+    <mxGraphModel dx="2584" dy="1404" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-46" value="Radioprogramm" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="142" y="161" width="425" height="266" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-68" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LWXAixe_Q4TVkV6ipTkD-64" target="LWXAixe_Q4TVkV6ipTkD-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-64" value="Stream" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="163" y="201" width="391" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-3" value="Content Creation" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-547" y="-36" width="588" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-57" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LWXAixe_Q4TVkV6ipTkD-55" target="LWXAixe_Q4TVkV6ipTkD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-55" value="Audio Enhancements" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-198" y="212" width="230" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-60" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LWXAixe_Q4TVkV6ipTkD-2" target="LWXAixe_Q4TVkV6ipTkD-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-61" value="ablauf.json" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="LWXAixe_Q4TVkV6ipTkD-60">
+          <mxGeometry x="0.2191" y="3" relative="1" as="geometry">
+            <mxPoint x="-65" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-2" value="Programmablauf" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;fontStyle=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-547" y="403" width="589" height="478" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-30" value="0-8 Uhr (60min Block)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;flipH=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-538" y="450" width="179" height="393" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-29" value="8-16 Uhr (30min Block)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-348" y="451" width="188" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-1" value="Programmpunkte" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-198" y="10" width="230" height="182" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LWXAixe_Q4TVkV6ipTkD-4" target="LWXAixe_Q4TVkV6ipTkD-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-4" value="Material" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-540.5" y="8" width="139" height="332" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-5" value="Feiertage" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-530.5" y="48" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-6" value="Historische Ereignisse" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-531" y="96" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-7" value="Aktuelle Geschehnisse" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-530.5" y="197" width="120" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-21" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LWXAixe_Q4TVkV6ipTkD-8" target="LWXAixe_Q4TVkV6ipTkD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-8" value="Content" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-364" y="8" width="139" height="331" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-10" value="RSS News" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-356" y="52" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-11" value="Werbung" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-355" y="102" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-12" value="Musik" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-356" y="149" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-13" value="Podcast" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-356" y="196" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-14" value="Anrufer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-355" y="244" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-15" value="Gewinnspiel / Quiz" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-355" y="291" width="120" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-17" value="Wetter" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-531" y="153" width="120" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-18" value="News" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-521" y="246" width="101" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-19" value="Events" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-521" y="303" width="101" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-20" value="Blogs" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-521.5" y="275" width="101" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-22" value="Nachrichtenprogramm" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="42" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-23" value="Nachrichten" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-335" y="495" width="163" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-24" value="Podcast zu den Nachrichten (mit Werbung eingebaut - Sponser)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-335" y="574" width="163" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-25" value="Werbejingle" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-335" y="538" width="163" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-26" value="Werbejingle" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-335" y="666" width="163" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-27" value="Musik zum Nachrichtenthema" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-337" y="704" width="163" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-28" value="Quiz zum Nachrichtenthema" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-337" y="756" width="163" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-31" value="16-24 Uhr (60min Block)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;flipH=1;verticalAlign=top;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-150" y="450" width="182" height="423" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-32" value="Nachrichten" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-144" y="495" width="163" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-33" value="Uhrzeit mit Random Fakts zur Zeit, Historie, Mathe (zu den Zahlen, etc.." style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="495" width="163" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-34" value="Horoskop mit sehr viel Pseudowissenschaften" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="586" width="163" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-35" value="10 min Witze am Stück" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="747" width="163" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-36" value="Philosophische Frage des Tages Teil 1-8" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="687" width="163" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-37" value="Musik" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-144" y="538" width="163" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-38" value="Musik" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="803" width="163" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-39" value="Sportart des Tages (Teil 1-8)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-144" y="617" width="163" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-40" value="Musik" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-144" y="675.5" width="163" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-41" value="Motivationsspeech, Anrufenfragen und Moralische Aufrufe" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-144" y="751" width="163" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-42" value="Musik" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-144" y="830" width="163" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-43" value="Werbejingle" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="648" width="163" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-44" value="Werbejingle" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-144" y="581.5" width="163" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-45" value="Werbejingle" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-144" y="718" width="163" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-47" value="Content" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="174.5" y="236.5" width="110.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-48" value="Geräusche / Sounds" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-192" y="291" width="95" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-49" value="Hintergrund-musik" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-86" y="292" width="113" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-50" value="Stimmen / Rollen" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-192" y="241" width="96" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-51" value="Stimmung" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-86" y="242" width="113" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-52" value="Werbejingle" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-172" y="77" width="170" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-53" value="Philosophische Frage" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-172" y="108" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-54" value="...." style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-174" y="146" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-58" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LWXAixe_Q4TVkV6ipTkD-1" target="LWXAixe_Q4TVkV6ipTkD-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-59" value="beitrag.wav" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="LWXAixe_Q4TVkV6ipTkD-58">
+          <mxGeometry x="-0.2836" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-62" value="Content" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="294.5" y="236.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-63" value="Content" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="428" y="236.5" width="106.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-65" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="285" y="236.5" width="13" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-66" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="414.5" y="237" width="13" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-67" value="Broadcast" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="298.5" y="353" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-72" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="LWXAixe_Q4TVkV6ipTkD-67" target="LWXAixe_Q4TVkV6ipTkD-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395.75" y="379" as="sourcePoint" />
+            <mxPoint x="-522.25" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-569" y="295" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWXAixe_Q4TVkV6ipTkD-73" value="feedback.json" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="LWXAixe_Q4TVkV6ipTkD-72">
+          <mxGeometry x="0.2191" y="3" relative="1" as="geometry">
+            <mxPoint x="580" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
