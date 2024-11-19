@@ -1,0 +1,27 @@
+# Names
+
+- Wasteland Waves – Radiowellen, die durch das Ödland driften.
+- Survivor’s Frequency – die Frequenz, die für Überlebende gedacht war, auch wenn es keine mehr gibt.
+- Ashes Broadcast – eine Sendung, die aus den Aschen der alten Welt funkt.
+- The Last Echo – das letzte Echo der Menschheit, das durch die Ruinen hallt.
+- Doomsday Dispatch – Nachrichten und Geschichten vom Tag des Untergangs und danach.
+- Aftermath Radio – die Sendung, die nur noch das “Danach” dokumentiert.
+- Silent Horizon – ein poetischer Name, der das Bild eines leeren Horizonts heraufbeschwört, während das Radio sendet.
+- Dead Air Network – ein Wortspiel mit dem Begriff „Dead Air“ (wenn Funkstille herrscht), aber auch die Ironie, dass niemand zuhört.
+- Vault of Voices – ein Radio, das wie ein Tresor alte Stimmen und Geschichten bewahrt, obwohl die Welt leer ist.
+- The Forsaken Frequency – eine verlassene Frequenz, die weiterhin in die Leere funkt.
+- Apokalypsia FM - Für die letzten Klänge, die die Menschheit hören wird.
+- Radio Phoenix - Aus der Asche der alten Welt erwacht eine neue.
+- Eternity Waves - Sendet auch, wenn alles andere verstummt ist.
+- Überlebenswelle - Der Sender, der das Überleben begleitet.
+- Resonanz 0 - Für die stille Welt nach dem Chaos.
+- Radio Endzeit - Für die letzten Momente und die Ewigkeit danach.
+- Post-Zero FM - Nach dem Nullpunkt, wenn nur noch der Sender bleibt.
+- Endlossignal - Das ewige Signal, das nicht verstummt.
+- Nocturne Radio - Der Klang der Nacht, die niemals endet.
+- Wellen der Dämmerung - Für die Dunkelheit nach dem Tag.
+- Radio Hades - Die Frequenz aus der Unterwelt für die Überlebenden.
+- Radio Nexus - Der letzte Kontaktpunkt der Menschheit.
+- Sonnenfinsternis FM - Das Radio der endlosen Nacht.
+- Dämmerfunk - Sendet weiter, wenn die Sonne nicht mehr aufgeht.
+- Echo der Erde - Die letzte Stimme unseres Planeten.

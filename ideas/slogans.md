@@ -23,3 +23,5 @@
 - Das Radio der endlosen Nacht.
 - Sendet weiter, wenn die Sonne nicht mehr aufgeht.
 - Die letzte Stimme unseres Planeten.
+- Uns hören alle Menschen weltweit, nämlich 0
+- Wir spielen was wir wollten!
