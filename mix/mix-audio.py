@@ -1,7 +1,7 @@
 from pydub import AudioSegment
 
-speech = AudioSegment.from_file("speech.wav")
-ambience = AudioSegment.from_file("ambience.mp3")
+speech = AudioSegment.from_file("input/speech.wav")
+ambience = AudioSegment.from_file("ambience/ambience001.mp3")
 
 # Normalize format: sample rate, channels
 speech = speech.set_frame_rate(44100).set_channels(2)
