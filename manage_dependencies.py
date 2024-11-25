@@ -15,7 +15,10 @@ def update_pip():
 def scan_code_for_imports(directory="."):
     """Scan all Python files in the directory for imported libraries."""
     imported_modules = set()
-    for root, _, files in os.walk(directory):
+    for root, dirs, files in os.walk(directory):
+        # Exclude specific directories
+        dirs[:] = [d for d in dirs if d != "ddd_venv"]
+        
         for file in files:
             if file.endswith(".py"):
                 file_path = os.path.join(root, file)
