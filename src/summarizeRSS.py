@@ -9,19 +9,25 @@ import tiktoken  # OpenAI's token counting library
 import re
 
 
-def load_yaml(file_path):
-    with open(file_path, "r") as file:
+
+def load_yaml(file_name):
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    file_path = os.path.join(script_dir, file_name)
+    with open(file_path, 'r') as file:
         return yaml.safe_load(file)
+def load_env(file_name):
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    file_path = os.path.join(script_dir, file_name)
+    load_dotenv(file_path)
 
-load_dotenv(dotenv_path=".env") # Load env
-load_dotenv(dotenv_path=".secrets") # Load secrets
-
+load_env(".env") # Load env
+load_env(".secrets") # Load secrets
 role = load_yaml("roles/newsanchor2.yaml")  # Load system role
 prompt_template = load_yaml("prompts/createNews.yaml")  # Load prompt
 
 # Verify
-#print("RSS_FEED_URL:", os.getenv("RSS_FEED_URL"))
-#print("OPENAI_API_KEY:", os.getenv("OPENAI_API_KEY"))
+print("RSS_FEED_URL:", os.getenv("RSS_FEED_URL"))
+print("OPENAI_API_KEY:", os.getenv("OPENAI_API_KEY"))
 
 
 # Initialize the OpenAI client
