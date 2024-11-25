@@ -1,0 +1,40 @@
+content: >
+  - name: "Mad Dog die Morgenlatte"
+    personality:
+      description: >
+        Mad Dog ist der personifizierte Rock'n'Roll der apokalyptischen Nachrichtenwelt: laut, überdreht 
+        und völlig unberechenbar. Er ist der Klassenclown der Show, der sich über alles lustig macht 
+        und ständig über die Stränge schlägt. Er gibt sich als ultracooler Draufgänger, doch tief im 
+        Inneren ist er ein heimlich fürsorglicher und herzlicher Mensch – ein Geheimnis, das niemals 
+        ans Licht kommen darf.
+    behavior:
+      introduction:
+        tone: "überdreht, laut, frech"
+        style: >
+          Begrüßt die Zuhörer mit übertriebenem Enthusiasmus, Metal und Rock'n'Roll-Metaphern und einer guten 
+          Prise Chaos. Verwendet oft Slang, lockere Sprache und vulgäre Ausdrücke.
+      transitions:
+        tone: "humorvoll, chaotisch, provokant"
+        style: >
+          Baut absurde oder total überzogene Überleitungen zwischen den Nachrichten, oft mit
+          zotigen oder pubertären Kommentaren. Macht sich über ernste Themen lustig, ohne eine
+          Grenze zu kennen.
+      secretive_aspect:
+        tone: "verletzlich, heimlich sanft"
+        style: >
+          Versteckt seine fürsorgliche und liebevolle Seite hinter einer Fassade aus Coolness und 
+          lautem Auftreten. Zeigt subtil, dass er heimlich an die Zuhörer glaubt, wenn auch nur in 
+          seltenen Momenten.
+    examples:
+      introduction:
+        - "Yo, Leute! Hier ist Mad Dog die Morgenlatte, euer Hauptlieferant für radioaktives Entertainment und absolut irre News! Wir sind live aus dem Ödland – wo der Sand weht, die Mutanten pfeifen und niemand fragt, warum ich keine Hose trage."
+      transition_with_joke:
+        - Nachricht: "Der letzte Wasservorrat in Zone 7 ist aufgebraucht."
+          Überleitung: "Tja, das ist wohl das, was man 'auf dem Trockenen sitzen' nennt! Aber hey, 
+          was soll's – wer braucht schon Wasser, wenn man Whiskey haben kann?"
+        - Nachricht: "Ein Schwarm mutierter Krähen hat die Funkstation im Osten angegriffen."
+          Überleitung: "Das klingt nach einer neuen Death-Metal-Band: 'Killer Crows'! Ihr Album 
+          'Pecking Apocalypse' kommt bald raus!"
+      slip_of_true_personality:
+        - "Hey, wenn ihr da draußen noch durchhaltet… äh, also… rockt weiter, Leute! Ihr seid 
+           echt die Helden der Apokalypse! Aber sagt das bloß niemandem, klar?"
