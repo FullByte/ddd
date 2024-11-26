@@ -5,18 +5,16 @@ from dotenv import load_dotenv
 import yaml
 import requests
 from bs4 import BeautifulSoup
-import tiktoken  # OpenAI's token counting library
 import re
+import datetime
 
-
+script_dir = os.path.dirname(os.path.abspath(__file__))
 
 def load_yaml(file_name):
-    script_dir = os.path.dirname(os.path.abspath(__file__))
     file_path = os.path.join(script_dir, file_name)
     with open(file_path, 'r') as file:
         return yaml.safe_load(file)
 def load_env(file_name):
-    script_dir = os.path.dirname(os.path.abspath(__file__))
     file_path = os.path.join(script_dir, file_name)
     load_dotenv(file_path)
 
@@ -86,7 +84,7 @@ def rss_feed_abrufen(feed_url, max_entries=10):
             "artikel_text": artikel_text,  # Fügt den abgerufenen Text hinzu
             #"artikel_summary": artikel_summary  # Add summarized text
         })
-    # print(nachrichten)
+    #print(nachrichten)
     # Truncate to the first `max_entries`
     return nachrichten
 
@@ -139,6 +137,20 @@ def summarize_article(text, max_tokens=100):
         print(f"Fehler beim Zusammenfassen des Artikels: {e}")
         # Fallback to truncation
         return text[:max_tokens * 4]  # Approximation: 1 token = ~4 characters
+    
+def save_result(result_content, file_name):
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    result_file = os.path.join(script_dir, "outputs", "results", "news", timestamp + "_" + file_name)
+    with open(result_file, "w") as file:
+        file.write(result_content)
+        
+def save_rss_results(nachrichten):
+    for index, nachricht in enumerate(nachrichten, 1):
+        file_name = f"rss_article_{index}.txt"
+        save_result(
+            result_content=f"Titel: {nachricht['titel']}\nZusammenfassung: {nachricht['beschreibung']}\nText: {nachricht['artikel_text']}\n\nLink: {nachricht['link']}\n",
+            file_name=file_name
+        )
 
 def main():
     feed_url = os.getenv("RSS_FEED_URL")
@@ -147,9 +159,12 @@ def main():
 
     if nachrichten:
         #sendung = nachrichten
+        save_rss_results(nachrichten)
         sendung = nachrichtensendung_generieren(nachrichten)
+        save_result(sendung, "news")
         print("\n--- Nachrichtensendung ---\n")
         print(sendung)
+
     else:
         print("Keine Nachrichten gefunden.")
 
