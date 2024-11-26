@@ -139,7 +139,7 @@ def summarize_article(text, max_tokens=100):
         return text[:max_tokens * 4]  # Approximation: 1 token = ~4 characters
     
 def save_result(result_content, file_name):
-    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H%M%S")
     result_file = os.path.join(script_dir, "outputs", "results", "news", timestamp + "_" + file_name)
     with open(result_file, "w") as file:
         file.write(result_content)
@@ -159,9 +159,9 @@ def main():
 
     if nachrichten:
         #sendung = nachrichten
-        save_rss_results(nachrichten)
-        sendung = nachrichtensendung_generieren(nachrichten)
-        save_result(sendung, "news")
+        #save_rss_results(nachrichten)
+        #sendung = nachrichtensendung_generieren(nachrichten)
+        #save_result(sendung, "news")
         print("\n--- Nachrichtensendung ---\n")
         print(sendung)
 
