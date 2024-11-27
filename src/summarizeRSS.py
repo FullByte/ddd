@@ -6,7 +6,10 @@ import yaml
 import requests
 from bs4 import BeautifulSoup
 import re
-import datetime
+from datetime import datetime
+
+# Aktuelle Zeit und Datum
+now = datetime.now()
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -90,7 +93,10 @@ def rss_feed_abrufen(feed_url, max_entries=10):
 
 def nachrichtensendung_generieren(nachrichten):
     # prompt = "Erstelle eine komplette Nachrichtensendung mit den folgenden Elementen:\n\n"
-    prompt = prompt_template["content"] + "\n\n"
+    current_date = datetime.now().strftime("%Y-%m-%d")
+    day_period = get_day_period()
+    prompt = f"Es ist aktuell {day_period}, am , {current_date}.\n\n"
+    prompt += prompt_template["content"] + "\n\n"
     for index, nachricht in enumerate(nachrichten, 1):
         prompt += (
             f"Nachricht {index}:\n"
@@ -139,7 +145,7 @@ def summarize_article(text, max_tokens=100):
         return text[:max_tokens * 4]  # Approximation: 1 token = ~4 characters
     
 def save_result(result_content, file_name):
-    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H%M%S")
+    timestamp = datetime.now().strftime("%Y-%m-%d %H%M%S")
     result_file = os.path.join(script_dir, "outputs", "results", "news", timestamp + "_" + file_name)
     with open(result_file, "w") as file:
         file.write(result_content)
@@ -152,16 +158,30 @@ def save_rss_results(nachrichten):
             file_name=file_name
         )
 
+def get_day_period():
+    """
+    Bestimmt die Tageszeit basierend auf der aktuellen Uhrzeit.
+    """
+    hour = datetime.now().hour
+    if 5 <= hour < 12:
+        return "Morgen" 
+    elif 12 <= hour < 17:
+        return "Nachmittag"  
+    elif 17 <= hour < 22:
+        return "Abend"  
+    else:
+        return "Nacht" 
+
 def main():
     feed_url = os.getenv("RSS_FEED_URL")
     max_entries = 5  # Limit to the first 5 entries
     nachrichten = rss_feed_abrufen(feed_url, max_entries)
 
     if nachrichten:
-        #sendung = nachrichten
-        #save_rss_results(nachrichten)
-        #sendung = nachrichtensendung_generieren(nachrichten)
-        #save_result(sendung, "news")
+        sendung = nachrichten
+        save_rss_results(nachrichten)
+        sendung = nachrichtensendung_generieren(nachrichten)
+        save_result(sendung, "news")
         print("\n--- Nachrichtensendung ---\n")
         print(sendung)
 
