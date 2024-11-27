@@ -18,7 +18,7 @@ source ddd_venv/bin/activate
 Install Libraries
 
 ```sh
-pip install ddd_venv
+pip3 install -r requirements.txt
 ```
 
 Run code...
