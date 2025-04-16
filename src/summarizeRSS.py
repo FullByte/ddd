@@ -7,6 +7,8 @@ import requests
 from bs4 import BeautifulSoup
 import re
 from datetime import datetime
+import ssl
+import urllib
 
 # Aktuelle Zeit und Datum
 now = datetime.now()
@@ -72,23 +74,36 @@ def fetch_article_content(url):
 
 def rss_feed_abrufen(feed_url, max_entries=10):
     # RSS-Feed abrufen
-    feed = feedparser.parse(feed_url)
+    print("feed abrufen")
+    #feed = feedparser.parse(feed_url)
+    context = ssl._create_unverified_context()
+    response = urllib.request.urlopen(feed_url, context=context)
+    
+    data = response.read()
+    # Feed parsen
+    feed = feedparser.parse(data)
+
     nachrichten = []
+
+    print(feed)
+
+    if hasattr(feed.feed, 'title'):
+        print(f"Feed Titel: {feed.feed.title}")
+    else:
+        print("Kein Titel im Feed gefunden.")
+
+    print(f"Anzahl der Einträge: {len(feed.entries)}")
 
     for eintrag in feed.entries[:max_entries]:  # Nur max_entries iterieren
         print(f"Verarbeite Artikel: {eintrag.title} - {eintrag.link}")
         artikel_text = fetch_article_content(eintrag.link)  # Abrufen des Artikels
         bereinigte_beschreibung = extract_summary(eintrag.summary) # Zusammenfassung bereinigen
-        #artikel_summary = summarize_article(artikel_text)  # Summarize the article
         nachrichten.append({
             "titel": eintrag.title,
             "beschreibung": bereinigte_beschreibung,
             "link": eintrag.link,
             "artikel_text": artikel_text,  # Fügt den abgerufenen Text hinzu
-            #"artikel_summary": artikel_summary  # Add summarized text
         })
-    #print(nachrichten)
-    # Truncate to the first `max_entries`
     return nachrichten
 
 def nachrichtensendung_generieren(nachrichten):
