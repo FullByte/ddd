@@ -187,21 +187,27 @@ def get_day_period():
     else:
         return "Nacht" 
 
-def main():
+def process_rss_feed():
+    """
+    Führt die Hauptlogik aus, die bisher in der main()-Funktion war.
+    """
     feed_url = os.getenv("RSS_FEED_URL")
     max_entries = 5  # Limit to the first 5 entries
     nachrichten = rss_feed_abrufen(feed_url, max_entries)
 
     if nachrichten:
-        sendung = nachrichten
         save_rss_results(nachrichten)
         sendung = nachrichtensendung_generieren(nachrichten)
         save_result(sendung, "news")
         print("\n--- Nachrichtensendung ---\n")
         print(sendung)
-
+        return sendung
     else:
         print("Keine Nachrichten gefunden.")
+        return None
+
+def main():
+    process_rss_feed()
 
 if __name__ == "__main__":
     main()
