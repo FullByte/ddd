@@ -1,10 +1,10 @@
 # Music
 
-gernerate music for our show
+generate music for our show
 
 ## GPT for song creation
 
-I created a ChatGPT own GPT fpor suno song creation:
+I created a ChatGPT own GPT for suno song creation:
 https://chatgpt.com/g/g-6747102661dc8191a2755224b3ed2f58-suno-song-generator
 
 Name: Suno Song Generator
