@@ -6,23 +6,3 @@ Doomsday Dispatcher is a radio program. Content is generated using current and p
 
 ![workflow](workflow.drawio.svg)
 
-## Get started
-
-Create and activate a Virtual Environment
-
-```sh
-python -m venv ddd_venv
-source ddd_venv/bin/activate
-```
-
-Install Libraries
-
-```sh
-pip3 install -r requirements.txt
-```
-
-Run code...
-
-## Maintenance
-
-Run `python manage_dependencies.py` to update the python library dependencies.
